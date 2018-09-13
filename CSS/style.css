@@ -1,0 +1,144 @@
+body{
+	
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	overflow-x: hidden;
+	max-width: 100%;
+	
+}
+
+
+
+
+header{
+	position: absolute;
+	left: 0;
+	right:0;
+}
+
+.logo{
+	float: left;
+	width: 150px;
+	height:100%;
+	margin-left: 20px;	
+}
+
+.navbar{
+	overflow: hidden;
+	position: fixed;
+	background-color: #808080;
+	margin-top: none;
+	margin-bottom: none;
+	text-transform: uppercase;
+	font-weight: 500;
+	max-height: 70px;
+	top: 0;
+	width: 100%;
+}
+
+
+.nav{
+	float: right;
+	margin: 0 50px 0 20px;
+	list-style: none;
+}
+.nav>li{
+	float: left;
+	position: relative;
+	display: block;
+	padding-right: 20px;
+	position: middle;
+}
+.abc{
+	opacity: 0.2;
+}
+a{
+	text-decoration:none;
+
+}
+.nav>li>a{
+	color: #fff;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-size: 17px;
+	line-height: 20px;
+	position: relative;
+	display: block;
+}
+.nav>li>a:hover{
+	font-size: 17.5px;
+}
+ 
+.PaddingTop100{
+	padding-top: 100px;
+}
+
+.mgtop20{
+	margin-top: 20px;
+}
+
+
+
+
+
+
+/*------------------- Business Hours Page ---------------------*/
+
+.Container1{
+	width: 30%;
+	background-color: rgba(156, 170, 187, 0.56);
+	margin-top: 200px;
+	margin-left: 430px;
+	padding-left: 20px;
+	padding-bottom: 40px;
+	color: #fff;
+	border-radius: 4px;
+}
+
+
+
+
+}
+
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+}
+.trainer{
+	 border-radius: 5px 5px 0 0;
+}
+
+
+/*------------Gallery-----------*/
+#GalleryPage{
+	
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.Gstyle{
+	padding-top: 90px;
+	margin-left: 37px;
+	margin-right: 37px;
+	margin-bottom: 130px;
+}
+
+
+/*---------Details-------*/
+
+.details{
+	padding-top: 20px;
+}
+.news{
+	padding-top: 60px;
+
+}
+.FullWidth1{
+	width: 100%;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #fff;
+	background-color: #808080;
+	float:left;
+}
